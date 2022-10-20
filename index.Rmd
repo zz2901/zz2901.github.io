@@ -1,0 +1,35 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is Troy's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+Here is some texts.
+
+I use [google](https://www.google.com/) all the time to do data science.
+
+this is my cat.
+
+![](images/bongo-cat-drum.gif)
+
+```{r}
+library(tidyverse)
+
+sample = rnorm(1000)
+
+mean(sample)
+
+```
+
+
+here is a link to the about page:
+[about](about.html)
+
+i also made a bonus [extra page](extra_page.html)
