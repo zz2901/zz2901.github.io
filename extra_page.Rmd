@@ -1,0 +1,12 @@
+---
+title: "Extra Page"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# This is an extra website
+
+![](images/super-bongo.gif)
