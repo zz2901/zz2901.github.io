@@ -40,3 +40,9 @@ i also made a bonus [extra page](extra_page.html)
 ## new section
 
 [Here's](plotly.html) the new page
+
+[dashboard](dashboard.html)
+
+rmarkdown::render("dashboard_template.Rmd", output_format = "flexdashboard::flex_dashboard")
+
+or build website to make dashboard work in wanted format

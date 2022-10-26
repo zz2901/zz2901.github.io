@@ -7,6 +7,8 @@ navbar:
       href: about.html
     - text: "Extra"
       href: extra_page.html
+    - text: "Dashboard"
+      href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<you@youremail.com>
     - icon: fa-github fa-lg
