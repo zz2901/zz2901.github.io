@@ -7,6 +7,6 @@ output:
     theme: cerulean
 ---
 
-# This is Troy's awesome website
+# This is Troy's website
 
-This website is made in RMarkdown.
+This website is made in RMarkdown using `cerulean` theme.

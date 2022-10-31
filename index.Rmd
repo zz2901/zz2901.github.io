@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "Troy Zhou (zz2901)'s website"
 output: 
   html_document:
     toc: true
@@ -7,26 +7,35 @@ output:
     theme: cerulean
 ---
 
-# This is Troy's website
+
+## Homework 4 links:
+
+[resume](resume.html)
+
+[linked in  link](https://www.linkedin.com/in/zirui-zhou-058a93135/)
+
+[HW 4 Dashboard](hw_4_dashboard.html)
+
+links listed and also not listed available in navigation bar
+
+## Links to external pages:
+
+[about](about.html)
+
+[extra page](extra_page.html)
+
+## In Class Examples:
+
+[Here's](plotly.html) the new page
+
+[in-class dashboard](dashboard.html)
 
 
 
-
-this is my cat.
+P.S. This is not my cat.
 
 <center>
 ![](images/bongo-cat-drum.gif)
 </center>
 
 
-here is a link to the about page:
-
-[about](about.html)
-
-i also made a bonus [extra page](extra_page.html)
-
-## new section
-
-[Here's](plotly.html) the new page
-
-[dashboard](dashboard.html)

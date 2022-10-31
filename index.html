@@ -11,9 +11,9 @@
 
 
 
-<title>My awesome website</title>
+<title>Troy Zhou (zz2901)’s website</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -183,8 +183,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -192,16 +192,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -331,16 +324,28 @@ div.tocify {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
+  <a href="hw_4_dashboard.html">HW 4 Dashboard</a>
+</li>
+<li>
   <a href="about.html">About</a>
 </li>
 <li>
   <a href="extra_page.html">Extra</a>
 </li>
 <li>
-  <a href="dashboard.html">Dashboard</a>
+  <a href="resume.html">
+    <span class="fa fa-light fa-file"></span>
+     
+  </a>
 </li>
 <li>
-  <a href="mailto:&lt;you@youremail.com&gt;">
+  <a href="https://www.linkedin.com/in/zirui-zhou-058a93135/">
+    <span class="fa fa-solid fa-linkedin"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="mailto:&lt;zz2901@cumc.columbia.edu&gt;">
     <span class="fa fa-envelope fa-lg"></span>
      
   </a>
@@ -360,38 +365,32 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">My awesome website</h1>
+<h1 class="title toc-ignore">Troy Zhou (zz2901)’s website</h1>
 
 </div>
 
 
-<div id="this-is-troys-awesome-website" class="section level1">
-<h1>This is Troy’s awesome website</h1>
-<p><img
-src="https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif" /></p>
-<p>Here is some texts.</p>
-<p>I use <a href="https://www.google.com/">google</a> all the time to do
-data science.</p>
-<p>this is my cat.</p>
+<div id="homework-4-links" class="section level2">
+<h2>Homework 4 links:</h2>
+<p><a href="resume.html">resume</a></p>
+<p><a href="https://www.linkedin.com/in/zirui-zhou-058a93135/">linked in
+link</a></p>
+<p><a href="hw_4_dashboard.html">HW 4 Dashboard</a></p>
+<p>links listed and also not listed available in navigation bar</p>
+</div>
+<div id="links-to-external-pages" class="section level2">
+<h2>Links to external pages:</h2>
+<p><a href="about.html">about</a></p>
+<p><a href="extra_page.html">extra page</a></p>
+</div>
+<div id="in-class-examples" class="section level2">
+<h2>In Class Examples:</h2>
+<p><a href="plotly.html">Here’s</a> the new page</p>
+<p><a href="dashboard.html">in-class dashboard</a></p>
+<p>P.S. This is not my cat.</p>
 <center>
 <img src="images/bongo-cat-drum.gif" />
 </center>
-<pre class="r"><code>library(tidyverse)
-
-sample = rnorm(1000)
-
-mean(sample)</code></pre>
-<pre><code>## [1] -0.04481121</code></pre>
-<p>here is a link to the about page: <a href="about.html">about</a></p>
-<p>i also made a bonus <a href="extra_page.html">extra page</a></p>
-<div id="new-section" class="section level2">
-<h2>new section</h2>
-<p><a href="plotly.html">Here’s</a> the new page</p>
-<p><a href="dashboard.html">dashboard</a></p>
-<p>rmarkdown::render(“dashboard_template.Rmd”, output_format =
-“flexdashboard::flex_dashboard”)</p>
-<p>or build website to make dashboard work in wanted format</p>
-</div>
 </div>
 
 

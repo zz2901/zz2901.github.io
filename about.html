@@ -13,7 +13,7 @@
 
 <title>About this website</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -183,8 +183,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -192,16 +192,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -331,16 +324,28 @@ div.tocify {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
+  <a href="hw_4_dashboard.html">HW 4 Dashboard</a>
+</li>
+<li>
   <a href="about.html">About</a>
 </li>
 <li>
   <a href="extra_page.html">Extra</a>
 </li>
 <li>
-  <a href="dashboard.html">Dashboard</a>
+  <a href="resume.html">
+    <span class="fa fa-light fa-file"></span>
+     
+  </a>
 </li>
 <li>
-  <a href="mailto:&lt;you@youremail.com&gt;">
+  <a href="https://www.linkedin.com/in/zirui-zhou-058a93135/">
+    <span class="fa fa-solid fa-linkedin"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="mailto:&lt;zz2901@cumc.columbia.edu&gt;">
     <span class="fa fa-envelope fa-lg"></span>
      
   </a>
@@ -365,9 +370,10 @@ div.tocify {
 </div>
 
 
-<div id="this-is-troys-awesome-website" class="section level1">
-<h1>This is Troy’s awesome website</h1>
-<p>This website is made in RMarkdown.</p>
+<div id="this-is-troys-website" class="section level1">
+<h1>This is Troy’s website</h1>
+<p>This website is made in RMarkdown using <code>cerulean</code>
+theme.</p>
 </div>
 
 
