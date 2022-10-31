@@ -7,7 +7,7 @@ output:
     theme: cerulean
 ---
 
-# This is Troy's website
+# This is Troy's website for P8105 Data Science I Fall 2022
 
 This website is made in RMarkdown using `cerulean` theme.
 

@@ -7,6 +7,6 @@ output:
     theme: cerulean
 ---
 
-## This is Troy's resume
+This is Troy's resume:
 
 <iframe width="100%" height="800" src="images/cv_data_science.pdf">
