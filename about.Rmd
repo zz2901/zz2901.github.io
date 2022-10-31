@@ -10,3 +10,5 @@ output:
 # This is Troy's website
 
 This website is made in RMarkdown using `cerulean` theme.
+
+Updated 10/31 for homework 4.
