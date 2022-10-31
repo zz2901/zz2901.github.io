@@ -7,13 +7,10 @@ output:
     theme: cerulean
 ---
 
-# This is Troy's awesome website
+# This is Troy's website
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
-Here is some texts.
 
-I use [google](https://www.google.com/) all the time to do data science.
 
 this is my cat.
 
@@ -22,17 +19,8 @@ this is my cat.
 </center>
 
 
-```{r}
-library(tidyverse)
-
-sample = rnorm(1000)
-
-mean(sample)
-
-```
-
-
 here is a link to the about page:
+
 [about](about.html)
 
 i also made a bonus [extra page](extra_page.html)
@@ -42,7 +30,3 @@ i also made a bonus [extra page](extra_page.html)
 [Here's](plotly.html) the new page
 
 [dashboard](dashboard.html)
-
-rmarkdown::render("dashboard_template.Rmd", output_format = "flexdashboard::flex_dashboard")
-
-or build website to make dashboard work in wanted format
